@@ -1,0 +1,29 @@
+# JUCE Build folders
+Builds/**/x64/
+Builds/**/Win32/
+Builds/**/Debug/
+Builds/**/Release/
+Builds/**/ipch/
+Builds/**/.vs/
+Builds/**/.vs/*
+Builds/**/.vscode/
+Builds/**/LiveTempoSync.vcxproj.user
+
+# Compiled object files
+*.obj
+*.pdb
+*.exe
+*.dll
+*.lib
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# JUCE auto-generated
+JuceLibraryCode/
+*.sdf
+*.suo
+*.VC.db
+*.vcxproj.filters
+*.VC.opendb

@@ -1,0 +1,46 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio Version 17
+
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TYNC_V3 - Standalone Plugin", "TYNC_V3_StandalonePlugin.vcxproj", "{C6D0DA54-BB05-1B65-2ACE-0E943BFAF3BB}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F113016-9932-3F97-35D0-338E9224EFA7} = {3F113016-9932-3F97-35D0-338E9224EFA7}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TYNC_V3 - VST3", "TYNC_V3_VST3.vcxproj", "{98C4D899-8690-D963-92F2-77C1556F5A00}"
+	ProjectSection(ProjectDependencies) = postProject
+		{3F113016-9932-3F97-35D0-338E9224EFA7} = {3F113016-9932-3F97-35D0-338E9224EFA7}
+		{892EBE47-387B-BF51-1AB4-50D268014DD9} = {892EBE47-387B-BF51-1AB4-50D268014DD9}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TYNC_V3 - Shared Code", "TYNC_V3_SharedCode.vcxproj", "{3F113016-9932-3F97-35D0-338E9224EFA7}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TYNC_V3 - VST3 Manifest Helper", "TYNC_V3_VST3ManifestHelper.vcxproj", "{892EBE47-387B-BF51-1AB4-50D268014DD9}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Release|x64 = Release|x64
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{98C4D899-8690-D963-92F2-77C1556F5A00}.Debug|x64.ActiveCfg = Debug|x64
+		{98C4D899-8690-D963-92F2-77C1556F5A00}.Debug|x64.Build.0 = Debug|x64
+		{98C4D899-8690-D963-92F2-77C1556F5A00}.Release|x64.ActiveCfg = Release|x64
+		{98C4D899-8690-D963-92F2-77C1556F5A00}.Release|x64.Build.0 = Release|x64
+		{C6D0DA54-BB05-1B65-2ACE-0E943BFAF3BB}.Debug|x64.ActiveCfg = Debug|x64
+		{C6D0DA54-BB05-1B65-2ACE-0E943BFAF3BB}.Debug|x64.Build.0 = Debug|x64
+		{C6D0DA54-BB05-1B65-2ACE-0E943BFAF3BB}.Release|x64.ActiveCfg = Release|x64
+		{C6D0DA54-BB05-1B65-2ACE-0E943BFAF3BB}.Release|x64.Build.0 = Release|x64
+		{3F113016-9932-3F97-35D0-338E9224EFA7}.Debug|x64.ActiveCfg = Debug|x64
+		{3F113016-9932-3F97-35D0-338E9224EFA7}.Debug|x64.Build.0 = Debug|x64
+		{3F113016-9932-3F97-35D0-338E9224EFA7}.Release|x64.ActiveCfg = Release|x64
+		{3F113016-9932-3F97-35D0-338E9224EFA7}.Release|x64.Build.0 = Release|x64
+		{892EBE47-387B-BF51-1AB4-50D268014DD9}.Debug|x64.ActiveCfg = Debug|x64
+		{892EBE47-387B-BF51-1AB4-50D268014DD9}.Debug|x64.Build.0 = Debug|x64
+		{892EBE47-387B-BF51-1AB4-50D268014DD9}.Release|x64.ActiveCfg = Release|x64
+		{892EBE47-387B-BF51-1AB4-50D268014DD9}.Release|x64.Build.0 = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal
