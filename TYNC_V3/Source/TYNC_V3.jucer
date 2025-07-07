@@ -1,18 +1,42 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<JUCERPROJECT id="LRxAZH" name="TYNC_V3" projectType="audioplug" useAppConfig="0"
+<JUCERPROJECT id="AWKebA" name="TYNC_V3" projectType="audioplug" useAppConfig="0"
               addUsingNamespaceToJuceHeader="0" jucerFormatVersion="1" pluginFormats="buildStandalone,buildVST3"
-              pluginCharacteristicsValue="pluginProducesMidiOut" pluginManufacturer="Nick Dub"
-              pluginChannelConfigs="{1, 1}, {2, 2}" pluginCode="TYNC">
-  <MAINGROUP id="c4ackU" name="TYNC_V3">
-    <GROUP id="{21080565-AA26-4405-A9E0-7FB2BBF2B9B3}" name="Source">
-      <FILE id="yW9ssc" name="PluginProcessor.cpp" compile="1" resource="0"
+              pluginCharacteristicsValue="pluginProducesMidiOut" pluginManufacturerCode="Nick"
+              pluginChannelConfigs="{1, 1}, {2, 2}">
+  <MAINGROUP id="lPQGab" name="TYNC_V3">
+    <GROUP id="{C9FAEFCE-E48D-05A3-F8FD-F66C66F1908D}" name="Source">
+      <GROUP id="{96CCA7AC-76C6-DA3F-846D-79335CA8C5EE}" name="External">
+        <GROUP id="{8D483CBC-EA1E-F966-64F3-24C50478D7D1}" name="src">
+          <FILE id="SjVI8H" name="DFT.cpp" compile="1" resource="0" file="Source/External/src/DFT.cpp"/>
+          <FILE id="SSyWOK" name="DFT.h" compile="0" resource="0" file="Source/External/src/DFT.h"/>
+          <FILE id="ClRWn3" name="Filter.cpp" compile="1" resource="0" file="Source/External/src/Filter.cpp"/>
+          <FILE id="S8L2Ep" name="Filter.h" compile="0" resource="0" file="Source/External/src/Filter.h"/>
+          <FILE id="qeKYlW" name="STFT.cpp" compile="1" resource="0" file="Source/External/src/STFT.cpp"/>
+          <FILE id="csn4DH" name="STFT.h" compile="0" resource="0" file="Source/External/src/STFT.h"/>
+        </GROUP>
+        <FILE id="Qcp674" name="BTT.cpp" compile="1" resource="0" file="Source/External/BTT.cpp"/>
+        <FILE id="cyr50u" name="BTT.h" compile="0" resource="0" file="Source/External/BTT.h"/>
+      </GROUP>
+      <GROUP id="{A8D58E48-9C95-5F41-0E1B-ED624A8BAE68}" name="img">
+        <FILE id="OIfguN" name="Tync Logo.png" compile="0" resource="1" file="Source/img/Tync Logo.png"/>
+      </GROUP>
+      <FILE id="Ol2HxU" name="BTTWrapper.cpp" compile="1" resource="0" file="Source/BTTWrapper.cpp"/>
+      <FILE id="kDmK39" name="BTTWrapper.h" compile="0" resource="0" file="Source/BTTWrapper.h"/>
+      <FILE id="ryQ3zH" name="HistogramView.cpp" compile="1" resource="0"
+            file="Source/HistogramView.cpp"/>
+      <FILE id="anl62Z" name="HistogramView.h" compile="0" resource="0" file="Source/HistogramView.h"/>
+      <FILE id="vF1KCp" name="LevelMeterComponent.cpp" compile="1" resource="0"
+            file="Source/LevelMeterComponent.cpp"/>
+      <FILE id="xSSZRt" name="LevelMeterComponent.h" compile="0" resource="0"
+            file="Source/LevelMeterComponent.h"/>
+      <FILE id="LfYrSI" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
-      <FILE id="Pvh0Xx" name="PluginProcessor.h" compile="0" resource="0"
+      <FILE id="MWFmho" name="PluginProcessor.h" compile="0" resource="0"
             file="Source/PluginProcessor.h"/>
-      <FILE id="RsJ2Ou" name="PluginEditor.cpp" compile="1" resource="0"
+      <FILE id="Nkh3sv" name="PluginEditor.cpp" compile="1" resource="0"
             file="Source/PluginEditor.cpp"/>
-      <FILE id="V9G72u" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
+      <FILE id="QtqRY3" name="PluginEditor.h" compile="0" resource="0" file="Source/PluginEditor.h"/>
     </GROUP>
   </MAINGROUP>
   <MODULES>
