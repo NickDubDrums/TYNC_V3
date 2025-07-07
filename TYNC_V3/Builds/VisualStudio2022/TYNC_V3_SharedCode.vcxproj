@@ -144,6 +144,13 @@
     </Bscmake>
   </ItemDefinitionGroup>
   <ItemGroup>
+    <ClCompile Include="..\..\Source\External\src\DFT.cpp"/>
+    <ClCompile Include="..\..\Source\External\src\Filter.cpp"/>
+    <ClCompile Include="..\..\Source\External\src\STFT.cpp"/>
+    <ClCompile Include="..\..\Source\External\BTT.cpp"/>
+    <ClCompile Include="..\..\Source\BTTWrapper.cpp"/>
+    <ClCompile Include="..\..\Source\HistogramView.cpp"/>
+    <ClCompile Include="..\..\Source\LevelMeterComponent.cpp"/>
     <ClCompile Include="..\..\Source\PluginProcessor.cpp"/>
     <ClCompile Include="..\..\Source\PluginEditor.cpp"/>
     <ClCompile Include="J:\Dub Studio\Programmi\juce-8.0.8-windows\JUCE\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.cpp">
@@ -2912,6 +2919,7 @@
     <ClCompile Include="J:\Dub Studio\Programmi\juce-8.0.8-windows\JUCE\modules\juce_gui_extra\juce_gui_extra.cpp">
       <ExcludedFromBuild>true</ExcludedFromBuild>
     </ClCompile>
+    <ClCompile Include="..\..\JuceLibraryCode\BinaryData.cpp"/>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_audio_basics.cpp"/>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_audio_devices.cpp"/>
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_audio_formats.cpp"/>
@@ -2940,6 +2948,13 @@
     <ClCompile Include="..\..\JuceLibraryCode\include_juce_gui_extra.cpp"/>
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="..\..\Source\External\src\DFT.h"/>
+    <ClInclude Include="..\..\Source\External\src\Filter.h"/>
+    <ClInclude Include="..\..\Source\External\src\STFT.h"/>
+    <ClInclude Include="..\..\Source\External\BTT.h"/>
+    <ClInclude Include="..\..\Source\BTTWrapper.h"/>
+    <ClInclude Include="..\..\Source\HistogramView.h"/>
+    <ClInclude Include="..\..\Source\LevelMeterComponent.h"/>
     <ClInclude Include="..\..\Source\PluginProcessor.h"/>
     <ClInclude Include="..\..\Source\PluginEditor.h"/>
     <ClInclude Include="J:\Dub Studio\Programmi\juce-8.0.8-windows\JUCE\modules\juce_audio_basics\audio_play_head\juce_AudioPlayHead.h"/>
@@ -4289,10 +4304,12 @@
     <ClInclude Include="J:\Dub Studio\Programmi\juce-8.0.8-windows\JUCE\modules\juce_gui_extra\misc\juce_WebControlRelays.h"/>
     <ClInclude Include="J:\Dub Studio\Programmi\juce-8.0.8-windows\JUCE\modules\juce_gui_extra\native\juce_NSViewFrameWatcher_mac.h"/>
     <ClInclude Include="J:\Dub Studio\Programmi\juce-8.0.8-windows\JUCE\modules\juce_gui_extra\juce_gui_extra.h"/>
+    <ClInclude Include="..\..\JuceLibraryCode\BinaryData.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\JuceHeader.h"/>
     <ClInclude Include="..\..\JuceLibraryCode\JucePluginDefines.h"/>
   </ItemGroup>
   <ItemGroup>
+    <None Include="..\..\Source\img\Tync Logo.png"/>
     <None Include="J:\Dub Studio\Programmi\juce-8.0.8-windows\JUCE\modules\juce_audio_devices\native\oboe\src\common\README.md"/>
     <None Include="J:\Dub Studio\Programmi\juce-8.0.8-windows\JUCE\modules\juce_audio_devices\native\oboe\src\flowgraph\resampler\README.md"/>
     <None Include="J:\Dub Studio\Programmi\juce-8.0.8-windows\JUCE\modules\juce_audio_devices\native\oboe\CMakeLists.txt"/>

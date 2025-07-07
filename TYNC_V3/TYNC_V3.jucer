@@ -6,6 +6,30 @@
               pluginChannelConfigs="{1, 1}, {2, 2}" pluginCode="TYNC">
   <MAINGROUP id="c4ackU" name="TYNC_V3">
     <GROUP id="{21080565-AA26-4405-A9E0-7FB2BBF2B9B3}" name="Source">
+      <GROUP id="{7151AC0C-488C-81C0-4D4F-0758FB8CD140}" name="External">
+        <GROUP id="{75CBF3A5-1920-8696-C583-2C90E20680FD}" name="src">
+          <FILE id="VjwKYj" name="DFT.cpp" compile="1" resource="0" file="Source/External/src/DFT.cpp"/>
+          <FILE id="pVrKh0" name="DFT.h" compile="0" resource="0" file="Source/External/src/DFT.h"/>
+          <FILE id="X54xrS" name="Filter.cpp" compile="1" resource="0" file="Source/External/src/Filter.cpp"/>
+          <FILE id="A8qb9O" name="Filter.h" compile="0" resource="0" file="Source/External/src/Filter.h"/>
+          <FILE id="vooLEW" name="STFT.cpp" compile="1" resource="0" file="Source/External/src/STFT.cpp"/>
+          <FILE id="QYaVS6" name="STFT.h" compile="0" resource="0" file="Source/External/src/STFT.h"/>
+        </GROUP>
+        <FILE id="QsTtnD" name="BTT.cpp" compile="1" resource="0" file="Source/External/BTT.cpp"/>
+        <FILE id="cPhyrX" name="BTT.h" compile="0" resource="0" file="Source/External/BTT.h"/>
+      </GROUP>
+      <GROUP id="{5F02E450-AFEB-D2BE-454A-6E8E49B9272C}" name="img">
+        <FILE id="GQbK2v" name="Tync Logo.png" compile="0" resource="1" file="Source/img/Tync Logo.png"/>
+      </GROUP>
+      <FILE id="JKGgnH" name="BTTWrapper.cpp" compile="1" resource="0" file="Source/BTTWrapper.cpp"/>
+      <FILE id="b9eOjT" name="BTTWrapper.h" compile="0" resource="0" file="Source/BTTWrapper.h"/>
+      <FILE id="JKPW4A" name="HistogramView.cpp" compile="1" resource="0"
+            file="Source/HistogramView.cpp"/>
+      <FILE id="S5cnfw" name="HistogramView.h" compile="0" resource="0" file="Source/HistogramView.h"/>
+      <FILE id="FkdCtc" name="LevelMeterComponent.cpp" compile="1" resource="0"
+            file="Source/LevelMeterComponent.cpp"/>
+      <FILE id="NGvdL1" name="LevelMeterComponent.h" compile="0" resource="0"
+            file="Source/LevelMeterComponent.h"/>
       <FILE id="yW9ssc" name="PluginProcessor.cpp" compile="1" resource="0"
             file="Source/PluginProcessor.cpp"/>
       <FILE id="Pvh0Xx" name="PluginProcessor.h" compile="0" resource="0"
